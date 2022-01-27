@@ -44,7 +44,7 @@
 .navbar-links li a {
   display: block;
   text-decoration: none;
-  color: black;
+  color: #8943d9;
   padding: 1rem;
 }
 
@@ -53,7 +53,7 @@
 }
 
 .navbar-links li:hover {
-  background-color: #555;
+  background-color: #8943d9;
   border: 1px solid black;
   border-radius: 8px;
 }
@@ -72,7 +72,7 @@
 .toggle-button .bar {
   height: 3px;
   width: 100%;
-  background-color: black;
+  background-color: #8943d9;
   border-radius: 10px;
 }
 
@@ -107,6 +107,10 @@
   .navbar-links.active {
     display: flex;
   }
+
+  .contact-me {
+    flex-wrap: wrap;
+  }
 }
 
 /* NavBar Responsive End */
@@ -131,6 +135,7 @@
   color: white;
   text-align: center;
   letter-spacing: 5px;
+  color: white;
 }
 
 .hero-img h3 {
@@ -155,6 +160,62 @@
 
 /* Hero Page End */
 
+/* Section with Icons Start */
+
+.upgrade {
+  margin: 25px auto;
+  width: 80%;
+}
+
+.upgrade h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 25px;
+  color: #8943d9;
+}
+
+.upgrade h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.upgrade-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.upgrade-logo_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px 20px;
+  height: 250px;
+  width: 250px;
+  font-size: 100px;
+}
+
+.upgrade-logo_text .icon {
+  font-size: 100px;
+  margin-bottom: 15px;
+}
+
+.upgrade-logo_text p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.upgrade p {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+/* Section with Icons End */
+
 /* Contact Me Start */
 
 .mapouter {
@@ -168,6 +229,7 @@
   text-align: center;
   margin: 40px auto;
   font-size: 30px;
+  color: #8943d9;
 }
 
 .contact-me {
@@ -223,11 +285,16 @@
 .form-text h1 {
   font-size: 24px;
   margin-bottom: 15px;
+  text-align: center;
+  color: #8943d9;
+
 }
 .form-text h4 {
   margin-bottom: 10px;
   font-size: 20px;
+  text-align: center;
 }
+
 .form-text p {
   text-align: center;
   font-size: 18px;
@@ -244,7 +311,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(128, 128, 128, 0.548);
+  background-color: #8943d967;
   padding: 30px 20px;
   width: 400px;
   margin: 30px auto;
@@ -334,7 +401,7 @@ footer {
 }
 
 .socials a:hover i {
-  color: aqua;
+  color: #8943d9;
 }
 
 .footer-bottom {
@@ -352,7 +419,7 @@ footer {
   text-transform: capitalize;
 }
 .footer-bottom p a {
-  color: #44bae8;
+  color: #8943d9;
   font-size: 16px;
   text-decoration: none;
 }
