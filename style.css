@@ -230,7 +230,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 50px;
 }
 
 .contact-text {
@@ -256,7 +255,7 @@
 }
 
 .contact-me__text {
-  margin: 20px 0;
+  margin: 20px 50px;
 }
 
 .contact-me__text h4 {
