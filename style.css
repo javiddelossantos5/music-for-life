@@ -111,6 +111,9 @@
   .contact-me {
     flex-wrap: wrap;
   }
+  .hero-img h1 {
+    font-size: 35px;
+  }
 }
 
 /* NavBar Responsive End */
@@ -131,15 +134,15 @@
 
 .hero-img h1 {
   font-weight: 800;
-  font-size: 50px;
+  font-size: 40px;
+  letter-spacing: 2px;
   color: white;
   text-align: center;
-  letter-spacing: 5px;
   color: white;
 }
 
 .hero-img h3 {
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   color: white;
 }
@@ -147,14 +150,14 @@
 .hero-img a {
   text-decoration: none;
   padding: 15px 25px;
-  background-color: black;
+  background-color: #8c59c7;
   color: white;
   border-radius: 25px;
   margin-top: 15px;
 }
 
 .hero-img a:hover {
-  background-color: grey;
+  background-color: #855db3da;
   color: black;
 }
 
@@ -169,8 +172,9 @@
 
 .upgrade h2 {
   text-align: center;
-  margin-bottom: 15px;
-  font-size: 25px;
+  margin-bottom: 25px;
+  font-size: 35px;
+  font-weight: 900;
   color: #8943d9;
 }
 
@@ -212,6 +216,10 @@
   text-align: center;
   margin-top: 15px;
   font-size: 18px;
+}
+
+.upgrade p a {
+  text-decoration: none;
 }
 
 /* Section with Icons End */
@@ -283,8 +291,8 @@
 }
 
 .form-text h1 {
-  font-size: 24px;
-  margin-bottom: 15px;
+  font-size: 30px;
+  margin-bottom: 25px;
   text-align: center;
   color: #8943d9;
 
@@ -311,12 +319,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #8943d967;
+  background-image: url(./images/form.jpg);
+  background-size: cover;
+  background-position: center;
   padding: 30px 20px;
-  width: 400px;
+  width: 100%;
   margin: 30px auto;
   border: 1px solid black;
-  border-radius: 20px;
+}
+
+form {
+  background-color: rgb(255, 255, 255);
+  padding: 20px 30px;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 .form label {
@@ -330,7 +346,15 @@
   border-radius: 25px;
 }
 
+.submit {
+  background-color: black;
+  color:white;
+}
 
+.submit:hover {
+  background-color: rgb(32, 30, 30);
+  color:rgb(233, 223, 223);
+}
 
 /* Form Box End */
 
