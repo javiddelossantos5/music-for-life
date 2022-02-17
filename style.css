@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
 /* Navbar Responsive */
 
 .navbar {
@@ -44,19 +49,14 @@
 .navbar-links li a {
   display: block;
   text-decoration: none;
-  color: #8943d9;
+  color: black;
   padding: 1rem;
 }
 
 .navbar-links li a:hover {
-  color: white;
+  color: rgba(0, 0, 0, 0.562);
 }
 
-.navbar-links li:hover {
-  background-color: #8943d9;
-  border: 1px solid black;
-  border-radius: 8px;
-}
 
 .toggle-button {
   position: absolute;
@@ -72,7 +72,7 @@
 .toggle-button .bar {
   height: 3px;
   width: 100%;
-  background-color: #8943d9;
+  background-color: #8c59c7;
   border-radius: 10px;
 }
 
@@ -130,6 +130,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-attachment: fixed;
 }
 
 .hero-img h1 {
@@ -139,12 +140,16 @@
   color: white;
   text-align: center;
   color: white;
+  font-family: sans-serif;
+  font-weight: 400;
 }
 
 .hero-img h3 {
   font-size: 25px;
   text-align: center;
   color: white;
+  font-family: sans-serif;
+  font-weight: 100;
 }
 
 .hero-img a {
@@ -161,7 +166,95 @@
   color: black;
 }
 
+@media only screen and (max-width: 800px) {
+  .hero .hero-img {
+    background-attachment: scroll;
+  }
+}
+
 /* Hero Page End */
+
+/* Studio Start */
+
+.studio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.studio-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+  height: 500px;
+  background-color: rgba(230, 230, 230, 0.794);
+}
+
+.studio-text h1 {
+  font-size: 34px;
+  margin-bottom: 20px;
+  font-weight: 800;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.studio-text h4 {
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.studio-text a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.studio-text a:hover {
+  color: black;
+}
+
+.studio img {
+  width: auto;
+  height: 500px;
+  background-color: rgba(230, 230, 230, 0.794);
+  padding: 20px 20px;
+
+}
+
+@media only screen and (max-width: 800px) {
+  .studio {
+    flex-wrap: wrap;
+  }
+
+  .studio img {
+    width: 600px;
+    overflow: hidden;
+  }
+}
+
+/* Studio End */
+
+/* Video Start */
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 30px;
+}
+
+.video iframe {
+  width: 90vw;
+  height: 500px;
+}
+
+/* Video End */
 
 /* Section with Icons Start */
 
