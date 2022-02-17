@@ -232,8 +232,13 @@ body {
     flex-wrap: wrap;
   }
 
+  .studio-text {
+    width: 505px;
+    overflow: hidden;
+  }
+
   .studio img {
-    width: 600px;
+    width: auto;
     overflow: hidden;
   }
 }
