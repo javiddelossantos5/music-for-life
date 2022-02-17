@@ -188,8 +188,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 600px;
-  height: 500px;
+  width: 450px;
+  height: 400px;
   background-color: rgba(230, 230, 230, 0.794);
 }
 
@@ -220,8 +220,8 @@ body {
 }
 
 .studio img {
-  width: auto;
-  height: 500px;
+  width: 450px;
+  height: 400px;
   background-color: rgba(230, 230, 230, 0.794);
   padding: 20px 20px;
 
@@ -232,15 +232,6 @@ body {
     flex-wrap: wrap;
   }
 
-  .studio-text {
-    width: 505px;
-    overflow: hidden;
-  }
-
-  .studio img {
-    width: auto;
-    overflow: hidden;
-  }
 }
 
 /* Studio End */
