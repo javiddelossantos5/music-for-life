@@ -553,3 +553,171 @@ footer {
 }
 
 /* Footer Responsive End */
+
+/* Our Team Start */
+
+.team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 0;
+  width: 85%;
+  margin: auto;
+}
+
+.team h1 {
+  font-size: 35px;
+  color: #8943d9;
+  margin-bottom: 20px;
+}
+
+.team p {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/* Our Team End */
+
+
+/* Annette Start */
+
+.annette {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  padding: 20px 20px;
+}
+
+.annette-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+
+.annette-text h3 {
+  font-size: 30px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.annette-text h5 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.annette-text p {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.annette img {
+  width: 450px;
+  height: 400px;
+  padding: 20px 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  .annette,
+  .jacinda,
+  .person {
+    flex-wrap: wrap;
+  }
+
+  
+}
+
+/* Annette End */
+
+
+/* Jacinda Start */
+
+.jacinda {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  padding: 20px 20px;
+}
+
+.jacinda-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.jacinda-text h3{
+  font-size: 30px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.jacinda-text h5{
+  font-size: 20px;
+}
+
+.jacinda-text p {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.jacinda img {
+  width: 450px;
+  height: 350px;
+}
+
+/* Jacinda End */
+
+/* Person Start */
+
+.person {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  padding: 20px 20px;
+}
+
+.person-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.person-text h3{
+  font-size: 30px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.person-text h5{
+  font-size: 20px;
+}
+
+.person-text p {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.person img {
+  width: 450px;
+  height: 350px;
+}
+
+/* Person End */
