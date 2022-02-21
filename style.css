@@ -604,6 +604,7 @@ footer {
   font-size: 30px;
   margin-bottom: 5px;
   text-align: center;
+  color: rgb(79, 56, 211);
 }
 
 .annette-text h5 {
@@ -660,6 +661,7 @@ footer {
   font-size: 30px;
   margin-bottom: 5px;
   text-align: center;
+  color: rgb(79, 56, 211);
 }
 
 .jacinda-text h5{
@@ -703,6 +705,7 @@ footer {
   font-size: 30px;
   margin-bottom: 5px;
   text-align: center;
+  color: rgb(79, 56, 211);
 }
 
 .person-text h5{
@@ -721,3 +724,187 @@ footer {
 }
 
 /* Person End */
+
+/* Our Team Start */
+
+.our-team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 0;
+  width: 85%;
+  margin: 40px auto;
+
+}
+
+.our-team h1 {
+  font-size: 35px;
+  color: #8943d9;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.our-team p {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+  width: 80%;
+  margin: auto;
+}
+
+/* Our Team End */
+
+/* Lessons Start */
+
+.lessons {
+  background-image: url(./images/paino-teacher.jpg);
+  height: 80vh;
+  width: 100vw;
+  margin: auto;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lessons-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.911);
+  padding: 0 50px 30px 50px;
+  border-radius: 20px;
+
+}
+
+.lessons-text h3 {
+  font-size: 25px;
+  color: #8943d9;
+  font-family: sans-serif;
+  font-weight: 200;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.lessons-text p {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 100;
+  color: rgb(79, 56, 211);
+  text-align: center;
+}
+
+/* Lessons End */
+
+
+/* Classes Start */
+
+.classes {
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+
+}
+
+.classes h3 {
+  font-size: 35px;
+  color: #8943d9;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.classes p {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+/* Classes End */
+
+/* Events Start */
+
+.events {
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  background-color: grey;
+  padding: 30px 40px;
+  border-radius: 20px;
+}
+
+.events h3 {
+  font-size: 35px;
+  color: black;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.events p {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5px;
+  color: white;
+}
+
+/* Events End */
+
+/* Resources Start */
+
+.resources {
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+
+}
+
+.resources h3 {
+  font-size: 35px;
+  color: #8943d9;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.resources h5 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.resources p {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.stress {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Resources End */
+
+
