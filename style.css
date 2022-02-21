@@ -907,4 +907,35 @@ footer {
 
 /* Resources End */
 
+/* Call logo start */
 
+.call {
+  visibility: hidden;
+}
+
+.call a {
+  font-size: 35px;
+  border: 1px solid black;
+  border-radius: 50%;
+  color: #8943d9;
+  padding: 20px 20px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: all .5s ease-in-out;
+  background-color: rgba(128, 128, 128, 0.514);
+}
+
+.call a:hover {
+  color: #8725f6;
+  background-color: rgba(128, 128, 128, 0.376);
+}
+
+@media only screen and (max-width: 800px) {
+  .call {
+    visibility: visible;
+  }
+
+
+
+/* Call logo End */
