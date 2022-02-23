@@ -390,14 +390,14 @@ body {
 }
 
 .form-text h1 {
-  font-size: 30px;
+  font-size: 35px;
   margin-bottom: 25px;
   text-align: center;
   color: #8943d9;
 
 }
 .form-text h4 {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-size: 20px;
   text-align: center;
 }
@@ -938,3 +938,24 @@ footer {
 }
 
 /* Call logo End */
+
+/* Gallery Images Start */
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.gallery img {
+  width: 400px;
+  height: 300px;
+  object-fit: fill;
+  padding: 10px 10px;
+}
+
+/* Gallery Images End */
