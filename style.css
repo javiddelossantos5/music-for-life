@@ -623,6 +623,18 @@ footer {
   font-size: 18px;
 }
 
+.badges {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.annette-text .badge,
+.annette-text .badge2 {
+  height: auto;
+  width: 100px;
+}
+
 .annette img {
   width: 450px;
   height: 400px;
@@ -727,6 +739,12 @@ footer {
   margin-top: 20px;
   text-align: center;
   font-size: 18px;
+}
+
+.person-text .person-img {
+  margin-top: 5px;
+  width: 125px;
+  height: auto;
 }
 
 .person img {
