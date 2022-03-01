@@ -327,6 +327,62 @@ body {
 
 /* What We Offer End */
 
+/* Donate Start */
+
+.donate {
+  margin: 30px 0;
+  width: 60%;
+  margin: auto;
+}
+
+.donate h2{
+  text-align: center;
+  font-size: 35px;
+  color: #8c59c7;
+  margin-bottom: 20px;
+}
+
+.donate h4{
+  text-align: center;
+  font-size: 25px;
+}
+
+.donate-box {
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.donate-box p {
+  padding: 0 30px;
+  text-align: center;
+  font-size: 18px;
+  flex: 2;
+}
+
+.donate-box img {
+  object-fit: cover;
+  width: 100px;
+  height: auto;
+  flex: 1;
+}
+
+@media only screen and (max-width: 800px) {
+.donate-box {
+  flex-wrap: wrap;
+}
+.donate-box img {
+  margin-top: 30px;
+  width: 100%;
+}
+.donate-box p {
+  margin-top: 30px;
+  width: 100%;
+}
+}
+
+/* Donate End */
 
 /* Contact Me Start */
 
