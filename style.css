@@ -174,6 +174,56 @@ body {
 
 /* Hero Page End */
 
+/* Upcoming Event Start */
+
+.event {
+  margin: 40px auto;
+}
+
+.event h2 {
+  color: #8c59c7;
+  font-size: 35px;
+  text-align: center;
+}
+
+.event-container {
+  background-image: url(./images/event1.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 70%;
+  height: 60vh;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.event-container h3{
+  font-size: 50px;
+  padding: 20px 0;
+}
+
+.event-container h4{
+  font-size: 25px;
+}
+
+.event-container p{
+  font-size: 18px;
+  text-align: center;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 800px) {
+  .event-container {
+    width: 100%;
+  }
+}
+
+/* Upcoming Event End */
+
 /* Studio Start */
 
 .studio {
